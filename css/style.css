@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+html{
+    font-size: 18px;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+#wrap{
+    width: 100%;
+}
+.inner{
+    width: 1240px; margin: 0 auto;
+}
+
+/*********************************************/
+
+/*********** header ***********/
+header{
+    height: 185px;
+}
+#top_menu{
+    background-color: #E83717;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 50px;
+}
+#top_menu ul{
+    float: right;
+}
+#top_menu ul li{
+    float: left;
+    margin-top: 10px;
+}
+#top_menu ul li a{
+    display: inline-block;
+    vertical-align: 6px;
+    padding: 0 10px;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+#top_menu input{
+    border: #fff 1px solid;
+    border-radius: 30px;
+    width: 220px;
+    height: 25px;
+    margin-top: 12px;
+}
+#top_menu .search{
+    display: inline-block;
+    vertical-align: middle;
+}
+#top_menu button{
+    background-color: #E83717;
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+/*********** nav ***********/
+nav{
+    height: 130px;
+    background-color: #fff;
+}
+nav h1{
+    float: left;
+    padding: 40px 0;
+}
+nav ul li{
+    float: left;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    padding-right: 40px;
+}
+nav ul li:first-child{
+    margin-left: 90px;
+}
+
+nav .join{
+    float: right;
+    width: 140px;
+    height: 50px;
+    background-color: #2E1607;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 40px;
+}
+/*********** nav추가 ***********/
+nav .join:hover{
+    width: 140px;
+    height: 50px;
+    background-color: #FFD700;
+    color: #000;
+    transition: all ease 0.5s;
+}
+
+/*********** section01 ***********/
+#sec01{
+    background-image: url(../img/main.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 620px;
+    cursor: pointer;
+    min-width: 1240px;
+    padding-top: 445px;
+    margin-bottom: 120px;
+    display: block;
+}
+#sec01 .top_more_button{
+    background-color: #fff;
+    width: 250px;
+    height: 75px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 20px;
+    margin: 0 auto;
+    display: block;
+}
+#sec01 ul{
+    position: absolute;
+    width: 300px;
+    margin-left: 575px;
+    margin-top: 30px;
+}
+#sec01 ul li{
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+}
+/*********** section01 추가***********/
+#sec01 .top_more_button:hover{
+    background-color:#00A652;
+    color: #fff;
+    width: 250px;
+    height: 75px;
+    transition: all ease 0.5s;
+}
+/*********** section01 끝 ***********/
+/*********** section02 ***********/
+#sec02{
+    height: 560px;
+    margin: 0;
+    margin-bottom: 140px;
+}
+#sec02 h2{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+#sec02 ul{
+    position: relative;
+    padding-top: 40px;
+}
+#sec02 ul li{
+    float: left;
+    width:360px;
+    margin-right: 80px;
+}
+#sec02 ul li:last-child{
+    margin-right: 0;
+}
+#sec02 h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 20px 0;
+}
+#sec02 p{
+    font-size: 0.9rem;
+}
+#sec02 span{
+    font-weight: bold;
+    font-size: 1rem;
+}
+#sec02 .left{
+    position: relative;
+    top: 280px;
+    left: -30px;
+    z-index: 999;
+}
+#sec02 .right{
+    position: relative;
+    top: 280px;
+    float: right;
+    right: -30px;
+    z-index: 999;
+}
+
+/****** 추가 시작 ******/
+#sec02 ul li img:hover{
+    transition: all ease 1s;
+    transform: scale(1.1);
+    box-shadow: 0 30px 40px rgba(0,0,0,0.2);
+    border-radius: 20px;
+}
+
+/*********** section03 ***********/
+#sec03{
+    background-image: url(../img/bg_img.jpg);
+    background-repeat: no-repeat;
+    height: 570px;
+    background-position: top center;
+    margin-bottom: 120px;
+    min-width: 1240px;
+    cursor: pointer;
+    z-index: 10;
+}
+/*********** section04 ***********/
+#sec04{
+    height: 400px;
+    margin-bottom: 150px;
+}
+#sec04 .sec04_text{
+    float: left;
+    width: 360px;
+    padding-top: 50px;
+}
+#sec04 h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+#sec04 .more_button{
+    background-color: #FFD700;
+    width: 215px;
+    height: 65px;
+    border-radius: 50px;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 35px;
+    display: block;
+}
+#sec04 #sec04_arrow{
+    float: right;
+    margin-top: -50px;
+    opacity: 0.5;
+}
+#sec04 #sec04_arrow a{
+    float: left;
+    padding-left: 20px;
+}
+#sec04 ul li{
+    width: 400px;
+    float: left;
+    margin-left: 40px;
+}
+#sec04 .heart{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/heart.png);
+    background-repeat: no-repeat;
+    z-index: 99;
+    float: right;
+    position: relative;
+    bottom: 50px;
+}
+/*********** section04 추가 시작 ***********/
+#sec04 ul li:hover .heart{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/pink_heart.png);
+    background-repeat: no-repeat;
+    transition: all ease 1s;
+}
+
+#sec04 .more_button:hover{
+    background-color: #2E1607;
+    width: 215px;
+    height: 65px;
+    color: #fff;
+    transition: all ease 0.5s;
+}
+/*********** section04 추가 끝 ***********/
+
+/*********** section05 ***********/
+#sec05 .inner{
+    height: 140px;
+    background-color: #FFA600;
+    margin-bottom: 150px;
+}
+#sec05 ul{
+    display: block;
+    text-align: center;
+}
+#sec05 ul li{
+    display: inline-block;
+    margin-left: 30px;
+
+}
+#sec05 ul li:nth-child(2)::before{
+    content: url(../img/Line\ 1.png);
+    opacity: 0.8;
+    position: relative;
+    top: -20px;
+    right: 60px;
+}
+#sec05 ul li:last-child::before{
+    content: url(../img/Line\ 1.png);
+    opacity: 0.8;
+    position: relative;
+    top: -36px;
+    right: 50px;
+}
+#sec05 ul li:nth-child(2) img{
+    margin-top: 20px;
+    padding-right: 30px;
+}
+#sec05 ul li p{
+    float: right;
+    margin-top: 45px;
+    text-align: left;
+}
+#sec05 ul li:first-child{
+    margin-right: 20px;
+    float: left;
+}
+#sec05 ul li:last-child{
+    float: right;
+    padding-right: 50px;
+}
+#sec05 span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/*********** footer ***********/
+footer{
+    height: 400px;
+    background-color: #2E1607;
+    color: #fff;
+    clear: both;
+    font-size: 0.9rem;
+    font-weight: 300;
+    min-width: 1240px;
+}
+footer .company{
+    padding-top: 100px;
+}
+footer .company li{
+    float: left;
+    padding-right: 20px;
+}
+footer ul li span{
+    color: #FFA600;
+}
+footer .sns_list{
+    float: right;
+    margin-top: -10px;
+}
+footer .sns_list li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 0;
+}
+footer p{
+    float: left;
+    padding-top: 50px;
+}
+/*********** footer 추가***********/
+footer ul li:hover img{
+    opacity: 0.8;
+}
+/*********** footer 추가 끝***********/
+
+/****** quick menu ******/
+/* .support{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FFA600;
+    position: fixed;
+    right: 50px;
+    bottom: 150px;
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.support2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #FFD700;
+    position: fixed;
+    right: 50px;
+    bottom: 70px;
+    background-image: url(../img/arrow_up.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
